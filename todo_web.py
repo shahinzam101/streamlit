@@ -2,7 +2,7 @@ import streamlit as st
 from functions import *
 import os
 
-FILE_PATH = r"C:\Users\ASUS\Desktop\python_mega\todo.txt"
+FILE_PATH = r"todo.txt"
 
 todos = get_todos(file_path=FILE_PATH)
 
